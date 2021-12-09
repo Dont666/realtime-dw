@@ -9,7 +9,7 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 import java.util.concurrent.TimeUnit;
 
-public class OrderWidth {
+public class OrderWidthApp {
     public static void main(String[] args) {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment().setParallelism(1);
 //        env
